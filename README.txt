@@ -4,7 +4,7 @@ Second Practice - SI1002-7 Languages and Paradigms of Computation, 2026-2, Unive
 
 ## Team
 
-- Mateo Benitez
+- Mateo Benítez Ramírez (C.C. 1021924163)
 
 ## How to build and run
 
@@ -51,4 +51,3 @@ does not, and the hooks with default values only need to be overridden where the
 `TouristCable` was added by overriding three hooks, and `StudentPassenger` asks the mode for its policy through
 `allowsStudentFlatFare()` instead of asking what class it is. This is also why the assignment forbids `dynamic_cast`,
 `typeid` and comparing `serviceType()` strings: they are a `switch` in disguise.
-
